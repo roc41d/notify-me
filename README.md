@@ -154,3 +154,10 @@ Request Body:
 #### Create a Post:
 
 Endpoint: `GET /posts?limit=20`
+
+### Note: For testing purposes, the command checks for new posts and notifies subscribers every five minutes.
+
+This can be change in `/routes/console.php`
+```
+Schedule::command(SendEmails::class)->everyFiveMinutes();
+```
