@@ -9,7 +9,7 @@ class PostNotification extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['post_id', 'user_id', 'sent_at'];
+    protected $fillable = ['post_id', 'subscriber_id', 'sent_at'];
 
     public function post()
     {
