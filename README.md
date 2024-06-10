@@ -111,7 +111,7 @@ http://localhost:8000/api/
 
 You can now use Postman or any other API client to interact with the endpoints.
 
-#### Create Web
+#### Create Website
 Endpoint: `POST /websites`
 
 Request Body:
@@ -123,7 +123,7 @@ Request Body:
 }
 ```
 
-#### Get Webs
+#### Get Websites
 Endpoint: `Get /websites?limit=20`
 
 #### Subscribe to a Website:
